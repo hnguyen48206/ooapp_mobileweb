@@ -1,0 +1,8 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+vn/onlineoffice/www/oomessenger/MainActivity.java
+ com.test.ooweb.MainActivity
+vn/onlineoffice/www/oomessenger/Application.java
+ com.test.ooweb.Application
+com/test/ooweb/BuildConfig.java
+ com.test.ooweb.BuildConfig

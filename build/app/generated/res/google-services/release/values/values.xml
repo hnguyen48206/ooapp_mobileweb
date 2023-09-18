@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">486954388437</string>
+    <string name="google_api_key" translatable="false">AIzaSyDQ17SZnAQOcbYJ8zsMOIPstYB68xT8LjA</string>
+    <string name="google_app_id" translatable="false">1:486954388437:android:bc70fe292b54c990394b5c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDQ17SZnAQOcbYJ8zsMOIPstYB68xT8LjA</string>
+    <string name="google_storage_bucket" translatable="false">ootest-bebca.appspot.com</string>
+    <string name="project_id" translatable="false">ootest-bebca</string>
+</resources>
