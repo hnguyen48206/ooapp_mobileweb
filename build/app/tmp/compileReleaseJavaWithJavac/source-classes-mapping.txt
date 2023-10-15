@@ -6,3 +6,5 @@ vn/onlineoffice/www/oomessenger/Application.java
  com.test.ooweb.Application
 com/test/ooweb/BuildConfig.java
  com.test.ooweb.BuildConfig
+io/flutter/app/FlutterMultiDexApplication.java
+ io.flutter.app.FlutterMultiDexApplication

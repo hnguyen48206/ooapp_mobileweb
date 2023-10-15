@@ -2,6 +2,7 @@ library globals;
 
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/cupertino.dart';
@@ -17,6 +18,7 @@ import 'package:onlineoffice_flutter/models/signature_model.dart';
 import 'package:onlineoffice_flutter/models/user_group_model.dart';
 import 'package:onlineoffice_flutter/models/work_project_model.dart';
 import 'package:onlineoffice_flutter/models/report_daily_model.dart';
+import 'package:lecle_downloads_path_provider/lecle_downloads_path_provider.dart';
 
 class AppCache {
   static final GlobalKey<NavigatorState> navigatorKey =
@@ -177,6 +179,8 @@ class AppCache {
 
   static Future<File> getFileFromURL(url) async {
     final http.Response responseData = await http.get(url);
+    var arr = url.path.split('/');
+
     Uint8List uint8list = responseData.bodyBytes;
     var buffer = uint8list.buffer;
     ByteData byteData = ByteData.view(buffer);
@@ -184,9 +188,19 @@ class AppCache {
     if (Platform.isIOS == true)
       downloadDir = await getDownloadsDirectory();
     else
-      downloadDir = await getExternalStorageDirectory();
-    File file = await File('${downloadDir.path}/onlineoffice').writeAsBytes(
-        buffer.asUint8List(byteData.offsetInBytes, byteData.lengthInBytes));
+      // downloadDir = await getExternalStorageDirectory();
+      downloadDir = await DownloadsPath.downloadsDirectory();
+    File file = await File('${downloadDir.path}/${arr[arr.length - 1]}')
+        .writeAsBytes(
+            buffer.asUint8List(byteData.offsetInBytes, byteData.lengthInBytes));
+    Fluttertoast.showToast(
+        msg: 'Tải file ${arr[arr.length - 1]} hoàn tất',
+        toastLength: Toast.LENGTH_LONG,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.lightBlue,
+        textColor: Colors.white,
+        fontSize: 16.0);
     return file;
   }
 

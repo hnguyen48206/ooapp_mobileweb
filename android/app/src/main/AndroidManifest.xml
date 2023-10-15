@@ -62,6 +62,7 @@
         android:usesCleartextTraffic="true">
 
         
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -93,7 +94,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.test.ooweb.fileProvider"
+            android:authorities="com.test.ooweb.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">

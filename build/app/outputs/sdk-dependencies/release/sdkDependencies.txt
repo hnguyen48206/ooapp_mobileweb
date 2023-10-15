@@ -5,10 +5,10 @@ library {
   maven_library {
     groupId: "org.jetbrains.kotlin"
     artifactId: "kotlin-stdlib-jdk7"
-    version: "1.6.21"
+    version: "1.7.0"
   }
   digests {
-    sha256: "\361\260cM\273\224\027 8F0 \273-\324\\\242hI\370\316)\326%\254\260\361V\235\021\333\356"
+    sha256: "\a\351\033\351\262\312 g-+\333~\030\033vnsE:-\2414\222\265\335\256\350\372G\256\2429"
   }
 }
 library {
@@ -1174,6 +1174,16 @@ library {
 }
 library {
   maven_library {
+    groupId: "androidx.multidex"
+    artifactId: "multidex"
+    version: "2.0.0"
+  }
+  digests {
+    sha256: "\300\027\000\t\020r\340\377]\216\302\320\016\254k\217\226\352\030d`\200B^\234\343\306\247\265\366n3"
+  }
+}
+library {
+  maven_library {
     groupId: "io.flutter"
     artifactId: "armeabi_v7a_release"
     version: "1.0.0-3316dd8728419ad3534e3f6112aa6291f587078a"
@@ -1204,7 +1214,7 @@ library {
 }
 library {
   digests {
-    sha256: "\233\331\337\234\006\305\035uh\016\231\244\3615\006*\310\225U\314\215\355U}\370\372\335\316\231\304d\234"
+    sha256: "\233\230\272\002\255T\2129\251\371\037\026\257\000\201y\365T\206\263\276\353\337\220\024\246\000x\034\036S\345"
   }
 }
 library_dependencies {
@@ -1911,7 +1921,7 @@ library_dependencies {
   library_dep_index: 51
 }
 library_dependencies {
-  library_index: 121
+  library_index: 122
 }
 module_dependencies {
   module_name: "base"
@@ -1928,4 +1938,5 @@ module_dependencies {
   dependency_index: 119
   dependency_index: 120
   dependency_index: 121
+  dependency_index: 122
 }

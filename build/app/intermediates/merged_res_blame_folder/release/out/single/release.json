@@ -1568,12 +1568,12 @@
         "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\ebb866ddfc7f56e513b1a2db0ab37c96\\biometric-1.1.0\\res\\drawable-anydpi-v24\\fingerprint_dialog_error.xml"
     },
     {
-        "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\7fb10b9c80ffef167c62f37eb27b4804\\appcompat-1.2.0\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\7fb10b9c80ffef167c62f37eb27b4804\\appcompat-1.2.0\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\7fb10b9c80ffef167c62f37eb27b4804\\appcompat-1.2.0\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1658,6 +1658,10 @@
     {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\color_mtrl_tabs_icon_color_selector.xml.flat",
         "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\c8a2f9ddd4401df3c641927e67b62f27\\material-1.0.0\\res\\color\\mtrl_tabs_icon_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable_toast_bg.xml.flat",
+        "source": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\fluttertoast\\intermediates\\packaged_res\\release\\drawable\\toast_bg.xml"
     },
     {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -2184,6 +2188,10 @@
         "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\c8a2f9ddd4401df3c641927e67b62f27\\material-1.0.0\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
     {
+        "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\layout_toast_custom.xml.flat",
+        "source": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\fluttertoast\\intermediates\\packaged_res\\release\\layout\\toast_custom.xml"
+    },
+    {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\hn162\\.gradle\\caches\\transforms-2\\files-2.1\\7fb10b9c80ffef167c62f37eb27b4804\\appcompat-1.2.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -2402,6 +2410,10 @@
     {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_ic_priority_high_white_24dp.png.flat",
         "source": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\local_auth_android\\intermediates\\packaged_res\\release\\drawable-xhdpi-v4\\ic_priority_high_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\drawable_corner.xml.flat",
+        "source": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\fluttertoast\\intermediates\\packaged_res\\release\\drawable\\corner.xml"
     },
     {
         "merged": "C:\\Users\\hn162\\OneDrive\\Desktop\\OnlineOffice\\oofluterapp-testweb\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_chronometer.xml.flat",
